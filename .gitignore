@@ -1,0 +1,5 @@
+developpement/data/*
+developpement/MNIST/runs/*
+developpement/MNIST/data/*
+developpement/MNIST/.ipynb_checkpoints/*
+developpement/MNIST/__pycache__/*
