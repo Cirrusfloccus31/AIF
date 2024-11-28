@@ -42,7 +42,6 @@ def predict():
     tensor = transform(img_pil).to(device)
     tensor = tensor[:1,:,:]
     tensor = tensor.unsqueeze(0)  # Add batch dimension
-    print("coucou2",tensor.shape)
 
     # Make prediction
     with torch.no_grad():
